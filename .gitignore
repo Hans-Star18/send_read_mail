@@ -1,4 +1,5 @@
 credentials.py
-downloads/
+/downloads
 contoh_gambar.png
 contoh_pdf.pdf
+/__pycache__/*.pyc
