@@ -82,5 +82,6 @@ def read_email():
                 else:
                     body = msg.get_payload(decode=True).decode()
                     print("Isi:", body)
+                        
     except Exception as e:
         print(f"Gagal menerima email: {e}")

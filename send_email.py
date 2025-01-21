@@ -113,6 +113,6 @@ def send_file():
 
         # Mengirim email
         server.sendmail(email_address, recipient_address, msg.as_string())
-        print("Email dengan lampiran berhasil dikirim!")
+        print("Email berhasil dikirim!")
     except Exception as e:
         print(f"Gagal mengirim email dengan lampiran: {e}")
